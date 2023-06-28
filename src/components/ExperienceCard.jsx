@@ -24,7 +24,7 @@ function ExperienceCard({
   return (
     <article
       className="flex flex-col rounded-lg items-center space-y-7 flex-shrink-0 
-    w-[300px] h-[400px] md:w-[400px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 cursor-pointer
+    w-[300px] sm:h-[500px] h-[400px] md:w-[400px] xl:w-[900px] snap-center bg-[#292929] p-10 opacity-40 hover:opacity-100 cursor-pointer
     transition-opacity duration-200 overflow-hidden"
     >
       <div className="px-0 md:px-10 ">
