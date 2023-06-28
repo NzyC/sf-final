@@ -25,7 +25,7 @@ function Hero() {
         <h2 className="text-sm uppercase text-gray-500 pb-2 tracking-[15px]">
           Software Engineer
         </h2>
-        <h1 className="text-5xl lg:6xl font-semibold scroll-px-10">
+        <h1 className="text-1xl sm:text-4xl lg:6xl font-semibold scroll-px-10">
           <span className="mr-3">{
           text
           }</span>

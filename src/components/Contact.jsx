@@ -17,23 +17,23 @@ function Contact() {
         Contact
       </h3>
 
-      <div className="flex flex-col space-y-10">
-        <h4 className="text-4xl font-semibold text-center">
+      <div className="flex flex-col space-y-5">
+        <h4 className="text-1xl font-semibold text-center">
           Get in touch, <span className="underline decoration-[#98F5E1]/50">I'd love to talk!
           </span>
         </h4>
 
-        <div className="space-y-10">
+        <div className="space-y-2">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#98F5E1] h-7 w-7 animate-pulse" />
-            <p className="text-2xl ">
+            <PhoneIcon className="text-[#98F5E1] h-4 w-4 animate-pulse" />
+            <p className="text-1xl ">
               <a href="tel:+61434477075">+(61) 434 477 075</a>
             </p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#98F5E1] h-7 w-7 animate-pulse" />
-            <p className="text-2xl ">
+            <EnvelopeIcon className="text-[#98F5E1] h-4 w-4 animate-pulse" />
+            <p className="text-1xl ">
               <a href="mailto:nidal.chowdhury1@gmail.com">
                 nidal.chowdhury1@gmail.com
               </a>
@@ -41,14 +41,14 @@ function Contact() {
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#98F5E1] h-7 w-7 animate-pulse" />
-            <p className="text-2xl ">Sydney, Australia</p>
+            <MapPinIcon className="text-[#98F5E1] h-4 w-4 animate-pulse" />
+            <p className="text-1xl ">Sydney, Australia</p>
           </div>
         </div>
 
         <form
           onSubmit={handleSubmit(onSubmit)}
-          className="flex flex-col space-y-2 w-fit mx-auto"
+          className="flex-col space-y-2 w-fit mx-auto hidden md:flex"
         >
           <div className="flex space-x-2">
             <input

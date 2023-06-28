@@ -69,7 +69,7 @@ function Projects() {
               transition={{ duration: 1.2 }}
               src={project.img}
               alt=""
-              className="h-[30%]"
+              className="h-[25%]"
             />
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
@@ -80,7 +80,7 @@ function Projects() {
                 </span>
               </h4>
 
-              <p className="text-lg text-center">{project.description}</p>
+              <p className="text-lg text-center hidden lg:block">{project.description}</p>
             </div>
 
             <div className="px-0 md:px-10 max-w-6xl">

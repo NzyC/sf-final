@@ -18,7 +18,7 @@ function Skills() {
       animate={inView ? "visible" : "title"}
       variants={imageVariants}
       transition={{ duration: 0.5 }}
-      className="flex relative flex-col text-center md:text-left xl:flex-row 
+      className="flex relative flex-col text-center md:text-left xl:flex-row
       max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
       <h3 className="absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
@@ -29,7 +29,7 @@ function Skills() {
         hover over for proficiency
       </h3>
 
-      <div className="grid grid-cols-4 gap-5">
+      <div className="grid grid-cols-3 gap-5 sm:grid-cols-4">
         <Skill img={`https://img.icons8.com/?size=512&id=21278&format=png`} proficiency={"100%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=20909&format=png`} proficiency={"100%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=108784&format=png`} proficiency={"100%"} />
