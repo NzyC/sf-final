@@ -1,5 +1,5 @@
 import "./App.css";
-import { Link, BrowserRouter as Router } from "react-router-dom";
+import { BrowserRouter as Router } from "react-router-dom";
 import About from "./components/About";
 import Contact from "./components/Contact";
 import Header from "./components/Header";
@@ -48,7 +48,7 @@ function App() {
           <Contact />
         </section>
 
-        <Link to="#hero">
+        <a href="#hero">
           <footer className="sticky bottom-5 w-full cursor-pointer">
             <div className="flex items-center justify-center">
               <img
@@ -58,7 +58,7 @@ function App() {
               />
             </div>
           </footer>
-        </Link>
+        </a>
       </div>
     </Router>
   );
