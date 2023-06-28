@@ -101,6 +101,10 @@ function Projects() {
         ))}
       </div>
 
+      <h3 className="absolute bottom-[23vh] sm:bottom-[14vh] uppercase tracking-[3px] text-gray-500 text-sm">
+        swipe for more
+      </h3>
+
       <div className="w-full absolute top-[30%] bg-[#98F5E1]/10 left-0 h-[500px] -skew-y-12"></div>
     </motion.div>
   );
