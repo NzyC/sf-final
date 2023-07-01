@@ -35,11 +35,6 @@ function Header() {
           bgColor="transparent"
           target="_blank"
         />
-        <SocialIcon 
-          fgColor="gray" 
-          bgColor="transparent" 
-          url="#contact"
-        />
         <SocialIcon
           url="https://github.com/NzyC"
           fgColor="gray"
