@@ -35,6 +35,11 @@ function Header() {
           bgColor="transparent"
           target="_blank"
         />
+        <SocialIcon 
+          fgColor="gray" 
+          bgColor="transparent" 
+          url="#contact"
+        />
         <SocialIcon
           url="https://github.com/NzyC"
           fgColor="gray"
@@ -49,7 +54,10 @@ function Header() {
         />
       </motion.div>
 
-      <a href="#contact">
+      <a
+        href="#contact"
+        className="hover:scale-105 transition duration-300 ease"
+      >
         <motion.div
           initial={{
             x: 500,

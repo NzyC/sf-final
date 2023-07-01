@@ -2,7 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
 
-function Skill({ directionLeft, img, proficiency }) {
+function Skill({ img, proficiency }) {
   const { ref, inView } = useInView({ triggerOnce: true });
 
   const imageVariants = {
@@ -16,14 +16,12 @@ function Skill({ directionLeft, img, proficiency }) {
         ref={ref}
         variants={imageVariants}
         initial={{
-          x: directionLeft ? -200 : 200,
           opacity: 0,
         }}
         animate={
           inView
             ? { opacity: 1, x: 0 }
             : {
-                x: directionLeft ? -200 : 200,
                 opacity: 0,
               }
         }

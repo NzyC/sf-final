@@ -32,14 +32,14 @@ function About() {
         transition={{ duration: 0.5 }}
         src="https://scontent.fsyd4-1.fna.fbcdn.net/v/t39.30808-6/356237274_933867371008020_8800993247702453360_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4nnMxDTWdqMAX9hKphL&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfApFxCpTPpBuP08XmoIFXx7zLWrpdw7u__BpzjVg3C4Xw&oe=649E3ACE"
         alt=""
-        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px] my-20"
+        className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px] my-10"
       />
 
       <div className="space-y-10 px-0 md:px-10">
         <h4 className="text-2xl font-semibold">
           Here's a <span className="underline decoration-[#98F5E1]/50">little</span> background
         </h4>
-        <p className="text-sm md:text-lg">
+        <p className="text-xs md:text-lg">
           I'm an 18 year-old Australian frontend software engineer with a
           spiking passion for creating performant websites with enjoyable user
           experiences. I am currently a student at the University of New South

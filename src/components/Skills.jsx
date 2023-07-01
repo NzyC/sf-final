@@ -29,7 +29,7 @@ function Skills() {
         hover over for proficiency
       </h3>
 
-      <div className="grid grid-cols-3 gap-5 sm:grid-cols-4">
+      <div className="grid grid-cols-3 gap-5 sm:grid-cols-3">
         <Skill img={`https://img.icons8.com/?size=512&id=21278&format=png`} proficiency={"100%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=20909&format=png`} proficiency={"100%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=108784&format=png`} proficiency={"100%"} />
@@ -38,13 +38,13 @@ function Skills() {
         <Skill img={`https://img.icons8.com/?size=512&id=62452&format=png`} proficiency={"90%"} />
         <Skill img={`https://w7.pngwing.com/pngs/87/586/png-transparent-next-js-hd-logo.png`} proficiency={"80%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=jD-fJzVguBmw&format=png`} proficiency={"80%"} />
-        <Skill directionLeft={true} img={`https://img.icons8.com/?size=512&id=13441&format=png`} proficiency={"75%"} />
-        <Skill directionLeft={true} img={`https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png`} proficiency={"80%"} />
-        <Skill directionLeft={true} img={`https://img.icons8.com/?size=512&id=12599&format=png`} proficiency={"100%"} />
-        <Skill directionLeft={true} img={`https://img.icons8.com/?size=512&id=x2g9nPCwQPOn&format=png`} proficiency={"100%"} />
-        <Skill directionLeft={true} img={`https://pic.clubic.com/v1/images/1928820/raw?fit=max&width=1200&hash=87e3d104dd6b1134d14f4f536cf8e7673504d69f`} proficiency={"100%"} />
-        <Skill directionLeft={true} img={`https://mui.com/static/logo.png`} proficiency={"100%"} />
-        <Skill directionLeft={true} img={`https://img.icons8.com/?size=512&id=24895&format=png`} proficiency={"90%"} />
+        <Skill img={`https://img.icons8.com/?size=512&id=13441&format=png`} proficiency={"75%"} />
+        <Skill img={`https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png`} proficiency={"80%"} />
+        <Skill img={`https://img.icons8.com/?size=512&id=12599&format=png`} proficiency={"100%"} />
+        <Skill img={`https://img.icons8.com/?size=512&id=x2g9nPCwQPOn&format=png`} proficiency={"100%"} />
+        <Skill img={`https://pic.clubic.com/v1/images/1928820/raw?fit=max&width=1200&hash=87e3d104dd6b1134d14f4f536cf8e7673504d69f`} proficiency={"100%"} />
+        <Skill img={`https://mui.com/static/logo.png`} proficiency={"100%"} />
+        <Skill img={`https://img.icons8.com/?size=512&id=24895&format=png`} proficiency={"90%"} />
       </div>
     </motion.div>
   );
