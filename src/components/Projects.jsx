@@ -62,13 +62,22 @@ function Projects() {
           >
             <motion.img
               ref={ref}
-              initial={{ y: -300, opacity: 0 }}
-              animate={inView ? { y: 0, opacity: 1 } : { y: -300, opacity: 0 }}
-              viewport={{ once: true }}
+              initial={{
+                scale: 0,
+                opacity: 0,
+              }}
+              animate={
+                inView
+                  ? { opacity: 1, scale: 1 }
+                  : {
+                      scale: 0,
+                      opacity: 0,
+                    }
+              }
               variants={imageVariants}
               transition={{ duration: 1.2 }}
-              src={project.img}
               alt=""
+              src={project.img}
               className="h-[25%]"
             />
 
@@ -80,7 +89,9 @@ function Projects() {
                 </span>
               </h4>
 
-              <p className="text-lg text-center hidden lg:block">{project.description}</p>
+              <p className="text-lg text-center hidden lg:block">
+                {project.description}
+              </p>
             </div>
 
             <div className="px-0 md:px-10 max-w-6xl">
@@ -101,7 +112,7 @@ function Projects() {
         ))}
       </div>
 
-      <h3 className="absolute bottom-[23vh] sm:bottom-[14vh] uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3 className="absolute bottom-[17vh] sm:bottom-[14vh] uppercase tracking-[3px] text-gray-500 text-sm">
         swipe for more
       </h3>
 

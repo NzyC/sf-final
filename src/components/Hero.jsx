@@ -1,6 +1,7 @@
 import React from "react";
 import { Cursor, useTypewriter } from "react-simple-typewriter";
 import BackgroundCircles from "./BackgroundCircles";
+import Image from "../assets/1687884708073.jpg"
 
 function Hero() {
   const [text] = useTypewriter({
@@ -17,7 +18,7 @@ function Hero() {
       <BackgroundCircles />
       <img
         className="relative rounded-full h-32 w-32 mx-auto object-cover"
-        src="https://media.licdn.com/dms/image/D4D03AQFV33BzJaRoTA/profile-displayphoto-shrink_800_800/0/1687884708073?e=1693440000&v=beta&t=X8HEG-JFO0cWhqz-X90GNBG_vON7E0cvRQ49NZo8M0Y"
+        src={Image}
         alt="Profile Pic"
       />
 

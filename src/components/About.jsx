@@ -1,6 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import { useInView } from "react-intersection-observer";
+import Image from "../assets/1687884708073.jpg"
 
 function About() {
   const { ref, inView } = useInView({ triggerOnce: true });
@@ -30,7 +31,7 @@ function About() {
         animate={inView ? "visible" : "hidden"}
         variants={imageVariants}
         transition={{ duration: 0.5 }}
-        src="https://scontent.fsyd4-1.fna.fbcdn.net/v/t39.30808-6/356237274_933867371008020_8800993247702453360_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=09cbfe&_nc_ohc=4nnMxDTWdqMAX9hKphL&_nc_ht=scontent.fsyd4-1.fna&oh=00_AfApFxCpTPpBuP08XmoIFXx7zLWrpdw7u__BpzjVg3C4Xw&oe=649E3ACE"
+        src={Image}
         alt=""
         className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px] my-10"
       />

@@ -29,7 +29,7 @@ function Skills() {
         hover over for proficiency
       </h3>
 
-      <div className="grid grid-cols-4 gap-5 sm:grid-cols-5">
+      <div className="grid grid-cols-3 gap-4 sm:grid-cols-5">
         <Skill img={`https://img.icons8.com/?size=512&id=21278&format=png`} proficiency={"100%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=20909&format=png`} proficiency={"100%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=108784&format=png`} proficiency={"100%"} />
