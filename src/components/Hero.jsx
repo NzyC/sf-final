@@ -35,16 +35,16 @@ function Hero() {
 
         <div className="pt-5">
           <a href="#about">
-            <button className="heroButton">About</button>
+            <button className="heroButton hover:scale-105 transition duration-300 ease">About</button>
           </a>
           <a href="#experience">
-            <button className="heroButton">Experience</button>
+            <button className="heroButton hover:scale-105 transition duration-300 ease">Experience</button>
           </a>
           <a href="#skills">
-            <button className="heroButton">Skills</button>
+            <button className="heroButton hover:scale-105 transition duration-300 ease">Skills</button>
           </a>
           <a href="#projects">
-            <button className="heroButton">Projects</button>
+            <button className="heroButton hover:scale-105 transition duration-300 ease">Projects</button>
           </a>
         </div>
       </div>

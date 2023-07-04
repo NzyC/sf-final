@@ -28,24 +28,28 @@ function Header() {
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
+          className="hover:scale-125 transition duration-300 ease"
         />
         <SocialIcon
           url="https://www.linkedin.com/in/nidal-chowdhury-b56b52220/"
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
+          className="hover:scale-125 transition duration-300 ease"
         />
         <SocialIcon
           url="https://github.com/NzyC"
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
+          className="hover:scale-125 transition duration-300 ease"
         />
         <SocialIcon
           url="https://www.instagram.com/nidal.chowdhury/"
           fgColor="gray"
           bgColor="transparent"
           target="_blank"
+          className="hover:scale-125 transition duration-300 ease"
         />
       </motion.div>
 
