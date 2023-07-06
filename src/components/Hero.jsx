@@ -30,7 +30,7 @@ function Hero() {
           <span className="mr-3">{
           text
           }</span>
-          <Cursor cursorColor="#98F5E1" />
+          <Cursor cursorColor="#023020" />
         </h1>
 
         <div className="pt-5">

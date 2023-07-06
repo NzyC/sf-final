@@ -19,7 +19,7 @@ function BackgroundCircles() {
       <div className='absolute border [#333333] rounded-full h-[150px] w-[150px] mt-52 animate-ping' />
       <div className='absolute border border-[#333333] rounded-full h-[200px] w-[200px] mt-52 animate-ping' />
       <div className='absolute border border-[#333333] rounded-full h-[300px] w-[300px] mt-52 animate-ping' />
-      <div className='absolute border border-[#98F5E1] opacity-20 rounded-full h-[550px] w-[550px] mt-52 animate-pulse' />
+      <div className='absolute border border-[#023020] opacity-20 rounded-full h-[550px] w-[550px] mt-52 animate-pulse' />
       <div className='absolute border border-[#333333] rounded-full h-[600px] w-[600px] mt-52 animate-ping' />
     </motion.div>
   )

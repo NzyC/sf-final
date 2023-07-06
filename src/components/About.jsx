@@ -36,9 +36,9 @@ function About() {
         className="-mb-20 md:mb-0 flex-shrink-0 w-40 h-40 rounded-full object-cover md:rounded-lg md:w-64 md:h-96 xl:w-[400px] xl:h-[500px] my-10"
       />
 
-      <div className="space-y-10 px-0 md:px-10">
+      <div className="space-y-10 px-0 md:px-10 text-gray-500">
         <h4 className="text-2xl font-semibold">
-          Here's a <span className="underline decoration-[#98F5E1]/50">little</span> background
+          Here's a <span className="underline decoration-[#023020]/50">little</span> background
         </h4>
         <p className="text-xs md:text-lg">
           I'm an 18 year-old Australian frontend software engineer with a

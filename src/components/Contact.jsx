@@ -18,22 +18,22 @@ function Contact() {
       </h3>
 
       <div className="flex flex-col space-y-5">
-        <h4 className="text-1xl font-semibold text-center">
-          Get in touch, <span className="underline decoration-[#98F5E1]/50">I'd love to talk!
+        <h4 className="text-1xl font-semibold text-center text-gray-500">
+          Get in touch, <span className="underline decoration-[#023020]/50">I'd love to talk!
           </span>
         </h4>
 
         <div className="space-y-2">
           <div className="flex items-center space-x-5 justify-center">
-            <PhoneIcon className="text-[#98F5E1] h-4 w-4 animate-pulse" />
-            <p className="text-1xl ">
+            <PhoneIcon className="text-[#023020] h-4 w-4 animate-pulse" />
+            <p className="text-1xl text-gray-500">
               <a href="tel:+61434477075">+(61) 434 477 075</a>
             </p>
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <EnvelopeIcon className="text-[#98F5E1] h-4 w-4 animate-pulse" />
-            <p className="text-1xl ">
+            <EnvelopeIcon className="text-[#023020] h-4 w-4 animate-pulse" />
+            <p className="text-1xl text-gray-500">
               <a href="mailto:nidal.chowdhury1@gmail.com">
                 nidal.chowdhury1@gmail.com
               </a>
@@ -41,8 +41,8 @@ function Contact() {
           </div>
 
           <div className="flex items-center space-x-5 justify-center">
-            <MapPinIcon className="text-[#98F5E1] h-4 w-4 animate-pulse" />
-            <p className="text-1xl ">Sydney, Australia</p>
+            <MapPinIcon className="text-[#023020] h-4 w-4 animate-pulse" />
+            <p className="text-1xl text-gray-500">Sydney, Australia</p>
           </div>
         </div>
 
@@ -80,7 +80,7 @@ function Contact() {
 
           <button
             type="submit"
-            className="bg-[#98F5E1] py-5 px-10 rounded-md text-black font-bold text-lg"
+            className="bg-[#023020] py-5 px-10 rounded-md text-[white] font-bold text-lg"
           >
             Submit
           </button>

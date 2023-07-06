@@ -53,7 +53,7 @@ function Projects() {
         Projects
       </h3>
 
-      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#98F5E1]/80 scrollbar-thin">
+      <div className="relative w-full flex overflow-x-scroll overflow-y-hidden snap-x snap-mandatory z-20 scrollbar-track-gray-400/20 scrollbar-thumb-[#023020]/80 scrollbar-thin">
         {projects.map((project, i) => (
           <div
             key={i}
@@ -84,12 +84,12 @@ function Projects() {
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
               <h4 className="text-4xl font-semibold text-center">
                 {project.title + " "}
-                <span className="underline decoration-[#98F5E1]/50">
+                <span className="underline decoration-[#023020]/50">
                   Project
                 </span>
               </h4>
 
-              <p className="text-lg text-center hidden lg:block">
+              <p className="text-lg text-center hidden lg:block ">
                 {project.description}
               </p>
             </div>
@@ -116,7 +116,7 @@ function Projects() {
         swipe for more
       </h3>
 
-      <div className="w-full absolute top-[30%] bg-[#98F5E1]/10 left-0 h-[500px] -skew-y-12"></div>
+      <div className="w-full absolute top-[25%] bg-[#023020]/30 left-0 h-[500px] -skew-y-12"></div>
     </motion.div>
   );
 }

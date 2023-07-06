@@ -25,7 +25,7 @@ function WorkExperience() {
         Experience
       </h3>
 
-      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#98F5E1]/80">
+      <div className="w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory mt-20 scrollbar scrollbar-track-gray-400/20 scrollbar-thumb-[#023020]/80">
       
         <ExperienceCard
           isTypeScript={true}
