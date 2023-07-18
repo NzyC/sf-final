@@ -21,7 +21,7 @@ function Skills() {
       className="flex relative flex-col text-center md:text-left xl:flex-row
       max-w-[2000px] xl:px-10 min-h-screen justify-center xl:space-y-0 mx-auto items-center"
     >
-      <h3 className="pl-[20px] absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="pl-[20px] absolute top-12 uppercase tracking-[20px] text-gray-500 text-2xl">
         Skills
       </h3>
 
@@ -37,7 +37,7 @@ function Skills() {
         <Skill img={`https://img.icons8.com/?size=512&id=uJM6fQYqDaZK&format=png`} proficiency={"70%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=62452&format=png`} proficiency={"90%"} />
         <Skill img={`https://w7.pngwing.com/pngs/87/586/png-transparent-next-js-hd-logo.png`} proficiency={"80%"} />
-        <Skill img={`https://img.icons8.com/?size=512&id=jD-fJzVguBmw&format=png`} proficiency={"80%"} />
+        <Skill img={`https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png`} proficiency={"80%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=13441&format=png`} proficiency={"75%"} />
         <Skill img={`https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png`} proficiency={"80%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=12599&format=png`} proficiency={"100%"} />

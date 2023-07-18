@@ -14,7 +14,7 @@ function Projects() {
       description:
         "The Netflix clone app is a highly responsive application developed using React JS, Firebase v9, and Redux. It showcases expertise in front-end development and state management, resulting in a seamless user experience. The app features a multi-page user interface driven by APIs, allowing users to browse and explore a diverse range of movies and TV shows. Firebase Authentication ensures secure user authentication and protection. The app was deployed by using Firebase Deployment, showcasing efficient backend integration for enhanced functionality.",
       github: "netflix-clone-final",
-      url: "https://netflix-clone-final-f42f2.web.app/",
+      url: "https://netflix-clone-final-riw3dbt7n-nzyc.vercel.app/?vercelToolbarCode=qI6cTZLxPjvEKs1",
     },
     {
       title: "Twitter Clone",
@@ -49,7 +49,7 @@ function Projects() {
       className="h-screen relative flex overflow-hidden flex-col text-left md:flex-row max-w-full justify-evenly
     mx-auto items-center z-0"
     >
-      <h3 className="pl-[20px] absolute top-24 uppercase tracking-[20px] text-gray-500 text-2xl">
+      <h3 className="pl-[20px] absolute top-12 uppercase tracking-[20px] text-gray-500 text-2xl">
         Projects
       </h3>
 
