@@ -9,6 +9,14 @@ function Projects() {
 
   const projects = [
     {
+      title: "Digital Maketing Agency",
+      img: "https://hulm-studios.vercel.app/assets/img/logo-light.png",
+      description:
+        "The website for Hulm Studios, a digital marketing agency, was meticulously developed using HTML, CSS, and JavaScript. Designed to provide a seamless user experience, the website successfully attracted and generated a substantial number of clients for the business. Throughout the development process, close collaboration with the client was maintained, ensuring their vision and objectives were met effectively. The outstanding outcome of the project led to a recognition of my skills and expertise, and I was offered a position as a web developer within the company. ",
+      github: "hulm-studios",
+      url: "https://hulm-studios.vercel.app/",
+    },
+    {
       title: "Netflix Clone",
       img: "https://loodibee.com/wp-content/uploads/Netflix-N-Symbol-logo.png",
       description:
@@ -23,14 +31,6 @@ function Projects() {
         "A single-page Twitter clone website was successfully developed using Firebase v9 and React, replicating the core functionality of posting content onto a functional feed. This project involved the integration of a Firebase v9 Database, Twitter Embed, and deployment capabilities, enabling users to store their content while fetching feeds from Firebase. The implementation of these backend services highlights expertise in integrating and leveraging powerful backend technologies. By emulating the functionality of a well-known social media platform, this Twitter clone demonstrates proficiency in frontend development and showcases the ability to create interactive and dynamic web applications.",
       github: "twitter-clone-final",
       url: "https://twitter-clone-final.web.app/",
-    },
-    {
-      title: "Digital Maketing Agency",
-      img: "https://hulm-studios.vercel.app/assets/img/logo-light.png",
-      description:
-        "The website for Hulm Studios, a digital marketing agency, was meticulously developed using HTML, CSS, and JavaScript. Designed to provide a seamless user experience, the website successfully attracted and generated a substantial number of clients for the business. Throughout the development process, close collaboration with the client was maintained, ensuring their vision and objectives were met effectively. The outstanding outcome of the project led to a recognition of my skills and expertise, and I was offered a position as a web developer within the company. ",
-      github: "hulm-studios",
-      url: "https://hulm-studios.vercel.app/",
     },
   ];
 
