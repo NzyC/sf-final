@@ -41,7 +41,7 @@ function About() {
           Here's a <span className="underline decoration-[#023020]/50">little</span> background
         </h4>
         <p className="text-xs md:text-lg">
-          I'm an 18 year-old Australian frontend software engineer with a
+          I'm an Australian frontend software engineer with a
           spiking passion for creating performant websites with enjoyable user
           experiences. I am currently a student at the University of New South
           Wales pursuing a degree in Data Science and Decisions with deep drive
