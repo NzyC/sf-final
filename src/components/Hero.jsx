@@ -8,7 +8,6 @@ function Hero() {
     words: [
       "Hey there, it's Nidal Chowdhury!",
       "<Frontend Specialist />",
-      "Quintillionaire  .  .  .  inshallah",
     ],
     loop: true,
     delaySpeed: 2000,
