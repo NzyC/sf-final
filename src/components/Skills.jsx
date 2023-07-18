@@ -37,7 +37,7 @@ function Skills() {
         <Skill img={`https://img.icons8.com/?size=512&id=uJM6fQYqDaZK&format=png`} proficiency={"70%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=62452&format=png`} proficiency={"90%"} />
         <Skill img={`https://w7.pngwing.com/pngs/87/586/png-transparent-next-js-hd-logo.png`} proficiency={"80%"} />
-        <Skill img={`https://assets.stickpng.com/images/5848309bcef1014c0b5e4a9a.png`} proficiency={"80%"} />
+        <Skill img={`https://w7.pngwing.com/pngs/413/852/png-transparent-redux-react-logo-javascript-dq-purple-violet-text.png`} proficiency={"80%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=13441&format=png`} proficiency={"75%"} />
         <Skill img={`https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png`} proficiency={"80%"} />
         <Skill img={`https://img.icons8.com/?size=512&id=12599&format=png`} proficiency={"100%"} />
