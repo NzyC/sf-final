@@ -112,7 +112,7 @@ function Projects() {
         ))}
       </div>
 
-      <h3 className="absolute bottom-[17vh] sm:bottom-[14vh] uppercase tracking-[3px] text-gray-500 text-sm">
+      <h3 className="animate-bounce absolute bottom-[17vh] sm:bottom-[14vh] uppercase tracking-[3px] text-gray-500 text-sm">
         swipe for more
       </h3>
 
