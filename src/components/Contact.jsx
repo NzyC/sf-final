@@ -18,7 +18,7 @@ function Contact() {
       </h3>
 
       <div className="flex flex-col space-y-5">
-        <h4 className="text-1xl font-semibold text-center text-gray-500">
+        <h4 className="text-1xl font-semibold text-center text-gray-500 animate-bounce">
           Get in touch, <span className="underline decoration-[#023020]/50">I'd love to talk!
           </span>
         </h4>

@@ -78,7 +78,7 @@ function Projects() {
               transition={{ duration: 1.2 }}
               alt=""
               src={project.img}
-              className="h-[25%]"
+              className="h-[25%] animate-bounce"
             />
 
             <div className="space-y-10 px-0 md:px-10 max-w-6xl">
